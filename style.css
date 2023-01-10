@@ -1,0 +1,66 @@
+.center {
+    text-align: center;
+}
+
+.creator {
+    text-align: right;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.box {
+    font-weight: 700;
+    font-size: 36px;
+    width: 600px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    line-height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    line-height: 100px;
+}
+
+.display {
+    text-decoration: none;
+    color: rgb(1, 1, 18);
+    background-color: skyblue;
+    font-size: 56px;
+    font-weight: 700;
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loge {
+    background-image: url(Snipaste_2022-12-24_15-46-33.png);
+    width: 1300px;
+    height: 220px;
+    background-position: left center;
+    display: inline-block;
+    text-align: left;
+    margin-left: 0ch;
+}
+
+.dov {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.classflag {
+    background-image: url(Snipaste_2022-12-24_15-47-02.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实验网页</title>
+    <style>
+        h1 {
+            color: red;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(1, 1, 18);
+            font-weight: 700;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        p {
+            text-indent: 2em;
+            line-height: 25px;
+        }
+
+        th {
+            height: 35px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loge"></div>
+    <h1>机械2204班</h1>
+    <!-- 如有雷同，纯属巧合。 -->
+    <hr>
+    <h3>人员组成</h3>
+    <p>老师，学长以及班级同学组成，学习生活中存在各种类型的知识点。</p>
+    <h3>过往历史</h3>
+    <p>属于机械工程学院，在2022年刚刚成立的班级组织。</p>
+    <h3>图像标签的使用：</h3>
+    <img src="https://www.hebust.edu.cn/images/2019-09/20160411170302332533.jpg" title="学习截图" width="800" />
+    <h3>超链接的使用：</h3>
+    <a href="https://www.hebust.edu.cn/" target="_blank" class="display"><b>河北科技大学</b></a>
+    <h3>盒子的使用：</h3>
+    <div class="dov blue box center">事实求是</div>
+    <div class="dov red box center">不尚空谈</div>
+    <hr>
+    <div class="classflag"></div>
+    <h3>表格</h3>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>班级</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>赵亿航</td>
+                <td>男</td>
+                <td>机械2204班</td>
+            </tr>
+            <tr>
+                <td>闫正浩</td>
+                <td>男</td>
+                <td>机械2204班</td>
+            </tr>
+            <tr>
+                <td>张丽丽</td>
+                <td>女</td>
+                <td>机械2204班</td>
+            </tr>
+            <tr>
+                <td>......</td>
+                <td>......</td>
+                <td>......</td>
+            </tr>
+        </tbody>
+    </table>
+    <P><a href="https://www.csdn.net/" target="_blank"><img
+                src="https://www.hebust.edu.cn/images/2019-09/20130702151909556123.jpg" width="600" /></a></P>
+    <h3>表单标签的使用：</h3>
+    <form>
+        <table>
+            <tr>
+                <td><label for=username>姓名：</label></td>
+                <td><input type="text" name="username" id="username" value="请输入姓名"></td>
+            </tr>
+            <tr>
+                <td><label for=password>密码：</label></td>
+                <td><input type="password" name="class password" id="password"></td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td><input type="radio" name="sex" id="nan"><label for="nan">男</label>
+                    <input type="radio" name="sex" id="nv"><label for="nv">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td>擅长的学科：</td>
+                <td><input type="checkbox" name="discipline" id="gaoshu"><label for="gaoshu">数学</label>
+                    <input type="checkbox" name="discipline" id="waiyu"><label for="waiyu">外语</label>
+                    <input type="checkbox" name="discipline" id="jisuanji"><label for="jisuanji">计算机</label>
+                    <input type="checkbox" name="discipline" id="jixiezhitu"><label for="jixiezhitu">机械制图</label>
+                </td>
+            </tr>
+            <tr>
+                <td>班级：</td>
+                <td>
+                    <select>
+                        <option>--请选择班级--</option>
+                        <option>机械2201班</option>
+                        <option>机械2202班</option>
+                        <option>机械2203班</option>
+                        <option>机械2204班</option>
+                        <option>机械2205班</option>
+                        <option>机械2206班</option>
+                        <option>机械2207班</option>
+                        <option>机械2208班</option>
+                        <option>机械2209班</option>
+                        <option>机械2210班</option>
+                        <option>机械2211班</option>
+                        <option>装控2201班</option>
+                        <option>装控2202班</option>
+                        <option>能动2201班</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <b>你的理由：</b> <br>
+        <textarea>一定要真实</textarea> <br>
+        <input type="submit" value="申请"> <br>
+        <p><input type="checkbox" name="promise" checked="checked"><b>我愿意遵守班级的一切纪律</b> <br></p>
+    </form>
+    <p class="creator"><i>刘禹桐</i><br /><i>机械2204班</i></p>
+</body>
+
+</html>
